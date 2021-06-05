@@ -2,9 +2,10 @@ function insert(num){
     
     let numero = document.getElementById('resultado').innerHTML;
 
-    let nunFinal = document.getElementById('resultado').innerHTML = numero + num;
+    document.getElementById('resultado').innerHTML = numero + num;
 
-    document.getElementById('resultado').innerHTML = nunFinal;
+    
+   
     
 }
 
